@@ -1,0 +1,80 @@
+{
+    "orders": {
+        "command": "/queue",
+        "help_display_text": "📋 Active Order Queue",
+        "description": "Manage incoming and active orders",
+        "category": "Orders"
+    },
+    "stats": {
+        "command": "/stats",
+        "help_display_text": "📊 Sales Statistics",
+        "description": "View today's revenue and order counts",
+        "category": "Orders"
+    },
+    "reviews": {
+        "command": "/reviews",
+        "help_display_text": "⭐ Customer Feedback",
+        "description": "View recent customer reviews",
+        "category": "Orders"
+    },
+    "menu": {
+        "command": "/menu",
+        "help_display_text": "📜 List Menu Items",
+        "description": "View and manage food menu",
+        "category": "Menu"
+    },
+    "add_item": {
+        "command": "/additem",
+        "help_display_text": "➕ Add New Item",
+        "description": "Create a new food entry",
+        "category": "Menu"
+    },
+    "fee": {
+        "command": "/setfee",
+        "help_display_text": "💰 Set Delivery Fee",
+        "description": "Update global delivery charge",
+        "category": "Menu"
+    },
+    "payments": {
+        "command": "/payments",
+        "help_display_text": "💳 Payment Settings",
+        "description": "Manage supported payment methods",
+        "category": "Menu"
+    },
+    "drivers": {
+        "command": "/drivers",
+        "help_display_text": "🛵 Active Drivers",
+        "description": "List and track delivery staff",
+        "category": "Staff"
+    },
+    "performance": {
+        "command": "/performance",
+        "help_display_text": "🏆 Driver Leaderboard",
+        "description": "View driver delivery stats",
+        "category": "Staff"
+    },
+    "health": {
+        "command": "/health",
+        "help_display_text": "🏥 System Health",
+        "description": "Check DB and server latency",
+        "category": "System"
+    },
+    "logs": {
+        "command": "/getlogs",
+        "help_display_text": "🐞 Crash Logs",
+        "description": "View clustered application errors",
+        "category": "System"
+    },
+    "settings": {
+        "command": "/settings",
+        "help_display_text": "⚙️ Service Settings",
+        "description": "Toggle shop open/closed status",
+        "category": "System"
+    },
+    "help": {
+        "command": "/help",
+        "help_display_text": "❓ Help Manual",
+        "description": "Show this control panel menu",
+        "category": "System"
+    }
+}
